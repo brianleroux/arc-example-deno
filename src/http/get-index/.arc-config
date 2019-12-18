@@ -1,0 +1,3 @@
+@aws
+runtime deno
+memory 1152
