@@ -1,6 +1,4 @@
-import { Context, Event } from "https://deno.land/x/lambda/mod.ts";
-
-export async function handler(event: Event, context: Context) {
+export async function handler(req:object) {
   return {
     statusCode: 200,
     headers: {'content-type': 'text/html; charset=utf8'},
